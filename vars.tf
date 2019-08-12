@@ -1,6 +1,6 @@
 variable aws_reg {
   description = "This is aws region"
-  default     = "eu-west-1"
+  default     = "us-west-2"
   type        = "string"
 }
 
@@ -10,11 +10,11 @@ variable stack {
 }
 
 variable username {
-  description = "DB username"
+  description = "db username"
 }
 
 variable password {
-  description = "DB password"
+  description = "db password"
 }
 
 variable dbname {
@@ -23,5 +23,5 @@ variable dbname {
 
 variable ssh_key {
   default     = "~/.ssh/id_rsa.pub"
-  description = "Default pub key"
+  description = "default pub key"
 }
